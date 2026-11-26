@@ -1,0 +1,3 @@
+import type { MetadataRoute } from 'next';
+export const dynamic = 'force-static';
+export default function sitemap(): MetadataRoute.Sitemap { return [{url:'https://richa0516.github.io/',lastModified:'2026-11-25',changeFrequency:'monthly',priority:1}]; }

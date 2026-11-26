@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+.env*
+!.env.example
+# Private / machine-local files
+.local/
+*.log
+*.pem
+*.key
+credentials*.json
+/docs/
+/next-env.d.ts

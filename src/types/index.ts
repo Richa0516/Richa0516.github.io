@@ -1,0 +1,3 @@
+export type Project = { name: string; event: string; date: string; team?: string; description: string; features: string[]; technologies: string[]; github: string; demo?: string; award: string; awardVerified: boolean; personalRole: { title: string; items: string[] } | null; screenshots?: { src: string; alt: string; width: number; height: number; caption?: string }[]; image?: { src: string; alt: string } };
+export type Experience = { organization: string; role: string; period: string; description: string };
+export type Credential = { title: string; detail: string; url?: string; date?: string; status: 'achieved' | 'learning' | 'planned' };
